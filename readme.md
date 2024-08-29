@@ -3,6 +3,8 @@
 
 This project is a Python-based tool that processes a video (either locally or online), extracts and summarizes the audio, and generates a new video with the summarized audio. The project can handle various video formats and provides a streamlined way to condense long videos into shorter, summarized versions.
 
+<img src="G.PNG" witdh='720' height='420'/>
+
 ## Example
 
 | Media Type          | Initial Version | Summarized Version |
