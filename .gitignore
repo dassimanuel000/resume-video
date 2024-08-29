@@ -1,0 +1,13 @@
+env.py
+.venv
+__pycache__
+*.log
+.xlsx
+*.xlsx
+*.mp3
+*.csv
+.vscode
+.vscode*
+*wav
+*mp4
+images_from_video*
