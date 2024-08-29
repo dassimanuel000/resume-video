@@ -40,6 +40,9 @@ This project is a Python-based tool that processes a video (either locally or on
 2. **Install Dependencies**:
    Ensure you have Python installed, and then install the required Python packages:
    ```bash
+   FFMPEG
+   PYTHON 3.8
+   VENV
    pip install -r config/requirements.txt
    ```
 

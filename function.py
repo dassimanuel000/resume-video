@@ -43,12 +43,15 @@ def capture_screenshots(video_path, output_folder):
     
     # Capture screenshots at every 10% of the video duration
     for i in range(1, 11): 
-        time = (i / 10) * duration  
-        frame = clip.get_frame(time)
-        image = Image.fromarray(frame)
-        
-        output_path = os.path.join(output_folder, f'screenshot_{i}.png')
-        image.save(output_path)
+        try:
+            time = (i / 10) * duration  
+            frame = clip.get_frame(time)
+            image = Image.fromarray(frame)
+            
+            output_path = os.path.join(output_folder, f'screenshot_{i}.png')
+            image.save(output_path)
+        except Exception as e:
+            print(f"Error: {e}")
     
     # Close the video clip
     clip.close()
