@@ -9,11 +9,7 @@
  
 ## Utilisation
 
-### 1. Récupération des événements à venir par sport
 
-
-
-### 5. Exporter les matchs et cotes de https://www.oddsportal.com/matches/football/
 
 
 ## Instructions supplémentaires
