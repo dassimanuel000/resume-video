@@ -43,7 +43,7 @@ This project is a Python-based tool that processes a video (either locally or on
    FFMPEG
    PYTHON 3.8
    VENV
-   pip install -r config/requirements.txt
+   pip install -r ./requirements.txt
    ```
 
 ## Use
