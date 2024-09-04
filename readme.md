@@ -37,7 +37,7 @@ This project is a Python-based tool that processes a video (either locally or on
    cd resume-video
    ```
 
-2. **Install Dependencies**:
+2. **Install Dependencies** :
    Ensure you have Python installed, and then install the required Python packages:
    ```bash
    FFMPEG
